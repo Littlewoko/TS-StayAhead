@@ -13,7 +13,7 @@ function scaleRectangle(rectangle: Rectangle, scaleFactor: number): Rectangle {
     }
 }
 
-const rect = {
+const rect: Rectangle = {
     width: 10, 
     height: 100
 }
