@@ -1,0 +1,25 @@
+JavaScript is dynamically typed. What does that mean and why might it be considered a barrier to producing robust software?
+
+Why is it that JavaScript rarely throws errors?
+
+Is TypeScript a programming language? Why/why not?
+
+How does TypeScript work?
+
+What is downleveling?
+
+Does TypeScript have a role at runtime?
+
+Under what circumstances is TypeScript unable to infer the type of a variable?
+
+What is the purpose of the any type?
+
+Will the following code compile? Why/why not?
+
+var lastName: string = undefined;
+In a file named rectangle.ts code a function named scaleRectangle. The function should accept two arguments:
+
+an object with width and height properties
+a scale factor
+The function should return a new version of the given rectangle scaled according to the given factor. Compile the code with TypeScript. Does it compile? Why/why not?
+
