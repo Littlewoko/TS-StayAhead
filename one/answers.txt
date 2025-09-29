@@ -5,5 +5,5 @@
 5. Downleveling is how typescript transpires into older versions of js (using traditional for loop rather than for each for example)
 6. No, typescript does not have a role at runtime. However, the compile process could allow for the creation of more efficient/ better practice js at compile time.
 7. In function parameters or when a variable is not initialised.
-8. Any allows any type to be passed in. This is for temporary use in transitioning a js codebase to ts.
+8. Any allows any type to be passed in. This is for temporary use in migration a js codebase to ts.
 9. No. Undefined is not of type string, so there would be a type error at compile time
