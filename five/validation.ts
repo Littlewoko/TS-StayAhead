@@ -1,10 +1,10 @@
-type ValidationError = {
+interface ValidationError {
     property: string,
     message: string
 }
 
 interface Validatable {
-    errors: ValidationError[]
+    errors?: ValidationError[]
     validate(): boolean
 }
 
@@ -13,7 +13,6 @@ interface SomeObject extends Validatable {
 }
 
 const validated: SomeObject = {
-    errors: [],
     zero: 0,
     validate() {
         this.errors = [];
