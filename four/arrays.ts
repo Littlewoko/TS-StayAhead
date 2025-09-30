@@ -1,7 +1,8 @@
-function everyNthElement(arr: any[], nth: number) {
-    if (nth <= 0) return arr;
+function everyNthElement<T>(arr: T[], nth: number) {
+    var newArr: T[] = [];
+
+    if (nth <= 0) return newArr;
     
-    var newArr: any[] = [];
     for (var i = 0; i < arr.length; i += nth) {
         newArr.push(arr[i]);
     }
